@@ -3,29 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal Budget application" />
+    <!-- SEO Change: Added meta description -->
     <title>Personal Budget</title>
     <link rel="stylesheet" href="./reset.css" />
+    <!-- Absolute path -->
     <link rel="stylesheet" href="./main.css" />
+    <!-- Absolute path -->
   </head>
   <body>
-    <div class="menu">
+    <nav class="menu">
+      <!-- Semantic HTML Change: Use nav tag for navigation links -->
       <ul>
         <li><a href="./">Homepage</a></li>
+        <!-- redirectiong homepage toggle to index.html -->
         <li><a href="./about.html">About</a></li>
+        <!-- Absolute path -->
         <li><a href="./login.html">Login</a></li>
+        <!-- Absolute path -->
         <li><a href="https://google.com">Google</a></li>
       </ul>
-    </div>
+    </nav>
 
-    <div class="hero">
+    <header class="hero">
+      <!-- Semantic HTML Change: Use header tag for introductory content -->
       <h1>Personal Budget</h1>
       <h2>A personal-budget management app</h2>
-    </div>
+    </header>
 
-    <div class="container center">
+    <main class="container center">
+      <!-- Semantic HTML Change: Use main tag -->
       <div class="page-area">
         <div class="text-box">
-          <h1>Stay on track</h1>
+          <h2>Stay on track</h2>
+          <!-- SEO Change: header from h1 to h2 -->
           <p>
             Do you know where you are spending your money? If you really stop to
             track it down, you would get surprised! Proper budget management
@@ -34,7 +45,8 @@
         </div>
 
         <div class="text-box">
-          <h1>Alerts</h1>
+          <h2>Alerts</h2>
+          <!-- SEO Change: header from h1 to h2 -->
           <p>
             What if your clothing budget ended? You will get an alert. The goal
             is to never go over the budget.
@@ -42,7 +54,8 @@
         </div>
 
         <div class="text-box">
-          <h1>Results</h1>
+          <h2>Results</h2>
+          <!-- SEO Change: header from h1 to h2 -->
           <p>
             People who stick to a financial plan, budgeting every expense, get
             out of debt faster! Also, they to live happier lives... since they
@@ -52,14 +65,19 @@
         </div>
 
         <div class="text-box">
-          <h1>Free</h1>
+          <h2>Free</h2>
+          <!-- SEO Change: header from h1 to h2 -->
           <p>This app is free!!! And you are the only one holding your data!</p>
         </div>
       </div>
-    </div>
+    </main>
 
-    <div class="bottom">
+    <footer class="bottom">
+      <!-- Semantic HTML Change: Use footer tag for footer content -->
       <div class="center">All rights reserved &copy; Sumiran Enumulapally</div>
-    </div>
+    </footer>
+
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <!-- A11y Change: Add a skip to content link for better navigation -->
   </body>
 </html>
